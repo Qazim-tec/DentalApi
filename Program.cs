@@ -39,10 +39,15 @@ namespace DentalDataBAse
             
             );
 
+            //string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+            //builder.Services.AddDbContext<PatientDbContext>(option =>
+            //    option.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
             string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-            builder.Services.AddDbContext<PatientDbContext>(option =>
-                option.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+            builder.Services.AddDbContext<PatientDbContext>(options =>
+                options.UseNpgsql(connectionString));
 
             builder.Services.AddScoped<IDentalService, Dental>();
             builder.Services.AddScoped<IAppointment, AppointmentService>();
