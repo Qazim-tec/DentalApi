@@ -143,3 +143,5 @@ C:\Users\QAZIM\Desktop\DentalDataBase\DentalDataBAse\bin\Debug\net8.0\runtimes\w
 C:\Users\QAZIM\Desktop\DentalDataBase\DentalDataBAse\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\QAZIM\Desktop\DentalDataBase\DentalDataBAse\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\QAZIM\Desktop\DentalDataBase\DentalDataBAse\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\QAZIM\Desktop\DentalDataBase\DentalDataBAse\bin\Debug\net8.0\Npgsql.dll
+C:\Users\QAZIM\Desktop\DentalDataBase\DentalDataBAse\obj\Debug\net8.0\DentalDataBAse.sourcelink.json

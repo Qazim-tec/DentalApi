@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.10",
           "Microsoft.IdentityModel.Tokens": "8.2.1",
+          "Npgsql": "9.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
           "Swashbuckle.AspNetCore": "6.6.2",
           "Swashbuckle.AspNetCore.Filters": "8.0.2",
@@ -582,6 +583,17 @@
           "lib/net8.0/MySqlConnector.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.3.5.0"
+          }
+        }
+      },
+      "Npgsql/9.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Npgsql.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.1.0"
           }
         }
       },
@@ -1224,6 +1236,13 @@
       "sha512": "sha512-AmEfUPkFl+Ev6jJ8Dhns3CYHBfD12RHzGYWuLt6DfG6/af6YvOMyPz74ZPPjBYQGRJkumD2Z48Kqm8s5DJuhLA==",
       "path": "mysqlconnector/2.3.5",
       "hashPath": "mysqlconnector.2.3.5.nupkg.sha512"
+    },
+    "Npgsql/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aZrXuBUUjRnvjoS4Lq0ZPYe3pnzAfK7TroGNGVpo4FCMBW1ypD/XfTTYjXpeRI8xcX5Otiv535Dy2jQWi98oeA==",
+      "path": "npgsql/9.0.1",
+      "hashPath": "npgsql.9.0.1.nupkg.sha512"
     },
     "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
       "type": "package",
