@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DentalDataBAse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8473938d16cabc6091002ddb061133133dfd278")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2d1cc9a641167a2a307db42fe9eb798f7df9e17")]
 [assembly: System.Reflection.AssemblyProductAttribute("DentalDataBAse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DentalDataBAse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

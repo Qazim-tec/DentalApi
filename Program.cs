@@ -56,9 +56,10 @@ namespace DentalDataBAse
 
             builder.Services.AddIdentity<ApplicationUsers, IdentityRole>(opt =>
             {
-                opt.Password.RequiredLength = 6;
-                opt.Password.RequireNonAlphanumeric = true;
-                opt.Password.RequireUppercase = true;
+                opt.Password.RequiredLength = 4;
+                opt.Password.RequireDigit = false;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireUppercase = false;
                 opt.SignIn.RequireConfirmedEmail = false;
             })
                 .AddEntityFrameworkStores<PatientDbContext>()
